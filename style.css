@@ -1,0 +1,153 @@
+/*
+*{
+    border: solid red 1px;
+}
+*/
+@font-face {
+    font-family: Outfit-Regular;
+    src: url(./assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
+@font-face {
+    font-family: Young-Serif-Regular;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: Outfit-Bold;
+    src: url(./assets/fonts/outfit/static/Outfit-Bold.ttf);
+}
+
+@font-face {
+    font-family: Outfit-SemiBold;
+    src: url(./assets/fonts/outfit/static/Outfit-SemiBold.ttf);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: #f3e5d7;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#main-body{
+    background-color: white;
+    border-radius: 2%;
+    text-align: left;
+    width: 736px;
+    font-family: Outfit-Regular;
+    color: #5f564d;
+    font-size: 16px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+    max-width: 736px;
+    min-width: 375px;
+   
+    
+    
+}
+
+#padding{
+    padding: 40px;
+}
+
+hr{
+    color: #e3ddd7;
+    border-top: 1px solid;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    min-width: 375px;
+    max-height: 300px;
+    border-radius: 2%;
+}
+
+h1{
+    font-family: Young-Serif-Regular;
+    font-weight: lighter;
+    color: #312e2c;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+
+#prep-box{
+    background-color: #fff7fb; 
+    border-radius: 5%;
+    padding: 24px;
+    margin-top: 32px;
+    display: flex;
+    align-items: flex-start;
+}
+
+#prep-title{
+    color: #7a284e;
+
+}
+
+strong{
+    font-family: Outfit-Bold;
+}
+
+#ingr, #inst, #nutr{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+
+li{
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+}
+
+ol li::marker{
+    color: #854632;
+    font-weight: bold;
+    font-size: larger; 
+   
+}
+
+.title {
+    color: #854632;
+    font-family: Young-Serif-Regular;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-weight: lighter;
+}
+
+/*
+table, tr, td{
+    border: solid red 1px;
+}
+*/
+
+table {
+    width: 656px;
+}
+
+
+td {
+    padding-bottom: 6px;
+    padding-top: 6px;
+
+}
+
+#line {
+    border-top: 1px #e3ddd7 solid;
+}
+
+.num{
+    color: #854632;
+    font-family: Outfit-Bold;
+}
+
